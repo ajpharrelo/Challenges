@@ -18,8 +18,13 @@ static void Challenge_2()
     printf("\nHello, %s\n", name);
 }
 
+static void Challenge_3()
+{
+
+}
+
 int main(int argc, char const *argv[])
 {
-    Challenge_2();
+
     return 0;
 }
