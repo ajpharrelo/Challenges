@@ -34,9 +34,14 @@ static void Challenge_4()
 {
     int speed, time;
     
+    get_int_from_keyboard("Enter travel speed", &speed);
+    get_int_from_keyboard("Enter travel time", &time);
+
+    printf("\nDistance traveled = %d\n", speed * time);
 }
 
 int main(int argc, char const *argv[])
 {
+    Challenge_4();
     return 0;
 }
