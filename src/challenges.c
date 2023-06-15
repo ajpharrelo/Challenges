@@ -32,6 +32,7 @@ static void Challenge_3()
 
 static void Challenge_4()
 {
+    int speed, time;
     
 }
 
