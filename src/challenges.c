@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "time.h"
 #include "helpers/reusable.h"
 
 static void Challenge_1()
@@ -40,8 +41,17 @@ static void Challenge_4()
     printf("\nDistance traveled = %d\n", speed * time);
 }
 
+static void Challenge_5()
+{
+    while(1)
+    {
+        printf("%ld", clock());
+    }
+}
+
+
 int main(int argc, char const *argv[])
 {
-    Challenge_4();
+    Challenge_5();
     return 0;
 }
