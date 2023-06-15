@@ -30,8 +30,12 @@ static void Challenge_3()
     printf("\nArea of rectangle: %d\n", width * height);
 }
 
+static void Challenge_4()
+{
+    
+}
+
 int main(int argc, char const *argv[])
 {
-    Challenge_3();
     return 0;
 }
