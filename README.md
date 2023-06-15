@@ -9,11 +9,14 @@ There are a total of **27** programming challenges, which increase in difficulty
 
 I will attempt to complete them all, while documenting how I completed them.
 
-# Challenge 1
+## Challenge 1 - Tell a joke
 This challenge is probably one the many simple ones which just requires 
 printing out a string waiting for input and then printing another string.
 
-to view the output of this challenge make a call to the function
-```c1
-Challenge_1();
-```
+## Challenge 2 - Output a name
+Again another simple challenge which only required basic input
+and then printing out the input
+
+## Challenge 3 - Calculate area of rectangle
+This challenge simply completed by requesting a width and a height and
+multiplying them.

@@ -20,11 +20,18 @@ static void Challenge_2()
 
 static void Challenge_3()
 {
+    int width = 0, height = 0;
+    puts("Enter a rectangle width");
+    scanf("%d", &width);
 
+    puts("Enter a rectangle height");
+    scanf("%d", &height);
+
+    printf("\nArea of rectangle: %d\n", width * height);
 }
 
 int main(int argc, char const *argv[])
 {
-
+    Challenge_3();
     return 0;
 }
